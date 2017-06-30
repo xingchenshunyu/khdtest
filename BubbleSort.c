@@ -10,7 +10,7 @@ int main()
 	int i,j,n;
 	scanf("%d",&n);
 	for(i=1;i<=n;i++)
-		scanf("%s,%d",a[i].name,&a[i].score);
+		scanf("%s %d",a[i].name,&a[i].score);
 	for(i=0;i<=n;i++)
 	{
 		for(j=1;j<=n-i;j++)
