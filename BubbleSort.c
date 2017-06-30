@@ -27,6 +27,6 @@ int main()
 	{
 		printf("%s\n",a[i].name);
 	}
-	gerchar();
+	getchar();getchar();
 	return 0;
 }
